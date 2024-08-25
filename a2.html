@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <label for="name">NAME:</label>
+      <input type="text" id="inp1">
+      <br><br>
+      <label for="password">PASSWORD:</label>
+      <input type="text" id="inp2">
+
+      <button type="submit" onclick="myfund()" id="my"onclick="myfunf()">SUBMIT</button>
+
+</body>
+<script>
+
+    function myfund(){
+     var NAME = document.getElementById("inp1").value;
+     var PASSWORD=document.getElementById("inp2").value;
+     localStorage.setItem('loadin',inp1);
+     localStorage.setItem('loadin',inp2);
+
+     if (NAME=="NAME" && PASSWORD=="PASSWORD"){
+        window.location.assign("a1.html")
+        alert('login succesfull')
+     }
+     else{
+        alert('error')
+     }
+
+    }
+    function myfunf(){
+        onclick.my
+        if (NAME=="pandi" && PASSWORD=="rajesh"){
+            alert ('login sucees')
+            window.location.assign("h1.html")
+        }
+        else{
+            alert('noo')
+        }
+    }
+
+</script>
+</html>

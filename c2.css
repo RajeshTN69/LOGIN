@@ -1,0 +1,164 @@
+.t1{
+    display: flexbox;
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(3, 0, 0);
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+
+
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+}
+#ip4,#sel1,#sel2,#ip4,#ip5{
+     background:white;
+     border-top: none;
+     border: 2px solid black;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin: auto;
+
+}
+#SELECT{
+    width:180px;
+    
+}
+#sel1{
+    width: 180px;
+}
+#sel2{
+    width: 180px;
+    color: green;
+}
+#sel2,#sel1:hover{
+    animation: ani 1s linear infinite;
+}
+@keyframes ani{
+    to{
+        color: red;
+        
+    }
+    from{
+        color: blue;
+    }
+}
+#AGE{
+to{
+    animation-duration: 1s;
+
+    opacity:0%;
+
+}
+from{
+    opacity: 100%;
+}
+}
+.div1{
+ width: 1350px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+ gap: 20px;
+}
+.div2{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    margin-left: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    animation: ani2 3s linear infinite;
+}
+@keyframes ani2{
+    25%{
+        border-color: red;
+    }
+    50%{
+        border-color: aqua;
+    }
+    75%{
+        border-color: blueviolet;
+    }
+    100%{
+        border-color: deeppink;
+    }
+}
+.BTN1{
+    background-color: transparent;
+    border: none;
+    color: white;
+    animation: anite 2s linear infinite;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+  
+}
+.BTN1:hover{
+    background: transparent;
+    border: none;
+    color: blue;font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch: extra-expanded;
+    animation: anite 2s linear infinite;
+    
+}
+@keyframes anite{
+    to{
+        color: aqua;
+        color: blue;
+        color: rgb(193, 13, 238);
+    }
+    from{
+        color: blueviolet;
+        text-overflow: ellipsis;
+        text-shadow: 0 0 40px rgb(43, 46, 226),0 0 60px rgb(70, 43, 226),0 0 80px rgb(43, 55, 226);
+    }
+}
+#PASS{
+    background-color: transparent;
+    border: none;
+    color: white;
+    animation: anite 2s linear infinite;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+  
+}
+.div3{
+    
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        width: 150px;
+        height: 150px;
+        padding-left: 10px;
+        margin-left: 60px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        animation: ani2 3s linear infinite;
+    }
+    @keyframes ani2{
+        25%{
+            border-color: red;
+        }
+        50%{
+            border-color: aqua;
+        }
+        75%{
+            border-color: blueviolet;
+        }
+        100%{
+            border-color: deeppink;
+        }
+    }
