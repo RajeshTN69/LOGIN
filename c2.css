@@ -162,3 +162,91 @@ text-align: center;
             border-color: deeppink;
         }
     }
+.h1{
+    font-size: 100px;
+    color: rgb(219, 16, 16);
+    background: linear-gradient(red,blue,blueviolet,violet,lavender,orange);
+    filter: blur(90%);
+    filter: saturate(70%);
+    filter: contrast(40%);
+    filter: drop-shadow(100%);
+    -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text; 
+    backdrop-filter: blur(100%);
+    text-align: center;
+    align-items: center;
+    margin-left: 90px;
+    background-position-x: 100px;
+    background-attachment: fixed;
+    backface-visibility: hidden;
+    
+}
+
+.di1{
+    background:transparent;
+    filter: grayscale(80%);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    
+    filter: brightness(100%);
+    border: 1px solid whitesmoke;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    border-style: groove;
+}
+.d1{
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to right,rgb(234, 0, 255),rgb(0, 255, 170),blueviolet,rgb(0, 119, 128));
+    margin-left: 500px;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+
+}
+#name{
+    opacity: 100%;
+    background: white;
+    backdrop-filter: brightness(100%);
+    filter: brightness(100%);
+    filter: contrast(100%);
+    background: white;
+    opacity: 100%;
+    border: 2px solid white;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: inline-block;
+}
+#pass{
+    
+    opacity: 100%;
+    background: white;
+    backdrop-filter: brightness(100%);
+    filter: brightness(100%);
+    filter: contrast(100%);
+    background: white;
+    opacity: 100%;
+    border: 2px solid white;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 37px;
+    display: inline-block;
+
+}
+#pass::before{
+    
+}

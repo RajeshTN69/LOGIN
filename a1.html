@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="c2.css">
 </head>
 <body>
-<form onsubmit="myfunc(event)">    
+<form onsubmit="myfunc(event)" method="post" action="connect.php" name="contact form">    
     <br><br><br><br>
 <div class="t1">
 <div class="t2">
     <label for="Name">NAME:</label>
-    <input type="text" id="NAME">
+    <input type="text" id="NAME" name="name">
     <br><br><br>
     <label for="Class">CLASS:  </label>
-    <select name="option" id="SELECT" aria-placeholder="CHOOSE">
+    <select name="class" id="SELECT" aria-placeholder="CHOOSE">
         <option disabled>CLASS</option>
         <option>6</option>
         <option>7</option>
@@ -33,29 +33,30 @@
     </select>
     <br><br><br>
     <label for="Age">AGE:</label>
-    <input type="number"  id="AGE">
+    <input type="number"  id="AGE" name="age">
     <br><br><br>
     <label >DOB:</label>
-    <input type="date"  id="sel2">
+    <input type="date"  id="sel2" name="date">
     <br><br><br>
     <label>GENDER:</label>
-    <select  id="sel1">
+    <select  id="sel1" name="gender">
         <option >BOY</option>
         <option >GIRL</option>
     </select>
     <br><br><br>
     <label for="father">FATHER:</label>    
-    <input type="text" placeholder="FATHER NAME" id="ip4">
+    <input type="text" placeholder="FATHER NAME" id="ip4" name="father">
     <br><br><br>
     <label for="mother">MOTHER</label>
-    <input type="text" placeholder="MOTHER NAME" id="ip5">
+    <input type="text" placeholder="MOTHER NAME" id="ip5" name="mother">
     <br><br>
 <button type="submit"onclick="func()">SUBMIT</button>
 </div>
 </div>
 </form>
-
-
+<br><br>
+<br>
+<script src="Google Sheet.js"></script>
 </body>
 <script>
     function myfunc(event){
@@ -79,12 +80,10 @@ event.preventDefault();
     }
 
     function func(){
-        if(NAME=="RAJESH" && CLASS=="6"&&AGE=="16" && DOB=="17/ 7 /2008 " && GENDER=="BOY")
-        {
-            alert('SUCCEFULY SUMITED')
-            Window.location.assign("a2.html")
-        }
+    alert('SUBMITED')
+    window.location.assign("a3.html")
 
     }
+    
 </script>
 </html>
